@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Tanush Kumar" />
+    <meta property="og:description" content="Portfolio Website of Tanush Kumar" />
+    <meta property="og:image" content="https://github.com/KumarTanush186/Portfolio-Website/blob/main/images/phone-preview.png?raw=true"/>
+    <meta property="og:url" content="https://KumarTanush186.github.io/Portfolio-Website/" />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+
+    <title>Tanush Kumar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/cb31bfb0c6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo" alt="" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Tanush Kumar</span><br />from India</h1>
+              <span class="smiley-icon">&#9786;</span>
+            </div>
+        </div>
+    </div>
+    <!---------------About Section----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bk.png" alt="" />
+                    
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify; padding-top: 20px;">
+                       I'm currently a 2nd-year B.Tech student in AI/ML with a clear vision: to master full-stack development. My love for coding is matched by my curiosity about the world, whether that's through online gaming, traveling to new places, or finding inspiration in timeless stories and books. I'm dedicated to honing my technical skills and am excited to share my journey as I build a career in the dynamic field of software development.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LANGUAGES</span><br />Python, c language , Javascript</li>
+                            <li><span>FRONTEND TECHNOLOGIES</span><br /> JavaScript, Bootstrap, HTML, CSS</li>
+                            <li><span>BACKEND TECHNOLOGIES</span><br />Javascript
+                                API</li>
+                            <li><span>DATABASE</span><br />MySQL</li>
+                            <li><span>DEVELOPER TOOLS</span><br />Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>EXPERIENCE-1</span><br />NOT AVAILABLE
+                            </li>
+                            <li><span>EXPERIENCE-2</span><br />NOT AVAILABLE
+                            </li>
+                            <li><span>EXPERIENCE-3</span><br />NOT AVAILABLE
+                            </li>
+                            <li><span>EXPERIENCE-$</span><br />NOT AVAILABLE</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH</span><br />Nitra Technical Campus (AKTU) <br> 2024-2028
+                            </li>
+                            <li><span>INTERMEDIATE</span><br />S.V.M. Inter College ,Orai(UP BOARD) <br> 2021-2023
+                            </li>
+                            <li><span>HIGH SCHOOL</span><br />S.V.M. Inter College ,Orai(UP BOARD) <br> 2019-2021</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p style="text-align: justify;">
+                       Ready to build your dream website? I specialize in full-stack web development, delivering everything from intuitive front-end interfaces to powerful, reliable back-end functionality. I create responsive, user-friendly websites from the ground up and enhance existing platforms to help your business stand out. Let's work together to build a strong online presence for you.
+
+
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?q=web+development&rlz=1C1UEAD_enIN1068IN1068&oq=web+deve&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBggBEEUYOTINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIKCAcQABixAxiABDIHCAgQABiABDIHCAkQABiABNIBCDUyMDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p style="text-align: justify;">
+                      I specialize in creating intuitive and visually compelling digital experiences. My UI/UX design services are focused on understanding user behavior and industry trends to build interfaces that are not only aesthetically pleasing but also highly functional. From initial wireframes to polished prototypes, I bring concepts to life, ensuring a seamless and engaging user journey. Let's work together to craft a design that truly connects with your audience.
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?q=UI%2FUX+Design&sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&biw=1536&bih=738&ei=cZeWZZjlBpKMseMPlKyg-A4&ved=0ahUKEwjY4cbC0cODAxUSRmwGHRQWCO8Q4dUDCBA&uact=5&oq=UI%2FUX+Design&gs_lp=Egxnd3Mtd2l6LXNlcnAiDFVJL1VYIERlc2lnbjILEAAYgAQYigUYkQIyERAAGIAEGIoFGJECGLEDGIMBMhEQABiABBiKBRiRAhixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI6QVQAFgAcAB4AZABAJgBqQGgAakBqgEDMC4xuAEDyAEA-AEC-AEB4gMEGAAgQYgGAQ&sclient=gws-wiz-serp">Learn
+                        more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h2>App Development</h2>
+                    <p style="text-align: justify;">
+                       I offer comprehensive app development services, building innovative, user-centric mobile applications tailored to your specific needs. From initial concept to final deployment, I manage the entire development process to create robust and scalable solutions. Specializing in iOS, Android, and cross-platform technologies, I deliver high-quality, engaging apps that will help you connect with your audience.
+                    </p>
+                    <a target="_blank" style="font-size: 15px; color: #FF5F1F;"
+                        href="https://www.google.com/search?sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&q=app+development&spell=1&sa=X&ved=2ahUKEwiqhvjA0cODAxWfSmwGHZZgCzwQBSgAegQICRAC&biw=1536&bih=738&dpr=1.25">Learn
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="" />
+                    <img src="images/work-11.png" alt="" />
+                    <img src="images/work-111.png" alt="" />
+                    <div class="layer">
+                        <h3>PROJECT-1</h3>
+                        <p>
+                        <ul>
+                              <li style="padding-bottom: 5px;">Built a Complete Portfolio website with frontend and backend in
+                                JavaScript a.</li>
+                            <li style="padding-bottom: 5px;">Integrated with the HTML and CSS as a Mini Project.</li>
+                            <li style="padding-bottom: 5px;">There are few sections like About, services, portfolio, ContactMe in navbar</li>
+                        </ul>
+                        </p>
+                        <a style="text-align: center;" target="_blank" href="PROJECTLINK"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="" />
+                    <img src="images/work-22.png" alt="" />
+                    <img src="images/work-222.png" alt="" />
+                    <div class="layer">
+                        <h3>PROJECT-2</h3>
+                        <p>
+                        <ul>
+                            <li style="padding-bottom: 5px;">Built a Complete Portfolio website with frontend and backend in
+                                JavaScript a.</li>
+                            <li style="padding-bottom: 5px;">Integrated with the HTML and CSS as a Mini Project.</li>
+                            <li style="padding-bottom: 5px;">There are few sections like About, services, portfolio, ContactMe in navbar</li>
+                       </ul>
+                        </p>
+                        <a style="text-align: center;" href="ProjectLINK" target="_blank"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="" />
+                    <img src="images/work-33.png" alt="" />
+                    <img src="images/work-333.png" alt="" />
+                    <div class="layer">
+                        <h3>PROJECT-3</h3>
+                        <p>
+                        <ul>
+                            <li style="padding-bottom: 5px;">Built a Complete Portfolio website with frontend and backend in
+                                JavaScript a.</li>
+                            <li style="padding-bottom: 5px;">Integrated with the HTML and CSS as a Mini Project.</li>
+                            <li style="padding-bottom: 5px;">There are few sections like About, services, portfolio, ContactMe in navbar</li>
+                       </ul>
+                        </p>
+                        <a target="_blank" style="text-align: center;"
+                            href="projectLINK"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> Tanushkauravji@@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 XXXXXXXXXX</p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.youtube.com"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/Tanush_kaurav/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in//Tanush0900"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/Tanush0900"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/"><i
+                                class="fab fa-facebook"></i></a>
+                        <a target="_blank" href="https://twitter.com/><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                    <a href="javascript:void(0)" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p >Copyright 2025 © Tanush Kumar. All rights reserved. Made with <i class="fas fa-heart"></i> by Tanush</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSawvairRZtoaXaQwgEI8kkQAevLa3nIGHgCPuZ0r6bJTCThE0KGHtCokGZ1Lva7e-Bw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
