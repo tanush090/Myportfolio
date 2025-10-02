@@ -24,8 +24,7 @@ body {
   height: 100vh;
   background-image: url(images/bk2.png);
   background-size: cover;
- 
-
+   background-position-y: 30%;
   background-position-x: 80%;
   background-size: 900px;
   background-repeat: no-repeat;
